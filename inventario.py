@@ -5,7 +5,10 @@ while ingrese_cont == "SI":
 	print("Ingrese la cantidad de ", producto, ": ")
 	cant=int(input())
 	tienda[producto]=cant
-	ingrese_cont=(input("Desea ingresar otro producto?")
-		
+	ingrese_cont=(input("Desea ingresar otro producto?"))
+for producto in tienda:
+	print (producto , ":", tienda[producto])
+
+
 
  
