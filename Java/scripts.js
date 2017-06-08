@@ -1,5 +1,11 @@
-var btnagregar= document.getElementById("agregar")
-var btnhistogram= document.getElementById("histo") 
-var crearnum= document.getElementById("cantidad")
+var btnagregar= document.getElementById("agregar");
+var btnhistogram= document.getElementById("histo"); 
+var crearnum= document.getElementById("cantidad");
+var listanumero= [];
+var contenedor= document.getElementById("caja");
 
-if cantidad.value < 0 
+btnhistogram.conclick= function() {
+	(if cantidad.value <= 100 && crearnum.value >=0) {
+		listanumero.push(crearnum.value);
+	}
+
