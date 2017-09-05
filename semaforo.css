@@ -1,0 +1,48 @@
+.principal {
+        position: relative;
+        padding-right: 10%;
+        padding-left:10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        height: 500px;
+        width: 30%;
+        background-color: gray;
+        border: solid black;
+
+}
+
+.rojo {
+        border-radius: 80%;
+        height: 30%;
+        width: 80%;
+        background-color: red;
+        border: solid black;
+        opacity: 0.2;
+}
+
+.amarillo {
+        border-radius: 80%;
+        height: 30%;
+        width: 80%;
+        background-color: yellow;
+        border: solid black;
+        opacity: 0.2;
+
+}
+
+.verde {
+        border-radius: 80%;
+        height: 30%;
+        width: 80%;
+        background-color: green;
+        border: solid black;
+        opacity: 0.2;
+
+}
+
+button {
+        position: center;
+        color: black;
+        height: 80%;
+        width: 30%;
+}
